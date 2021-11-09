@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prerana Singh | Web Developer</title>
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicons -->
+    <!-- Animate CSS CDN -->
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <h1>Prerana Singh</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!--  the bars for toggling the nav menu on mobile (a hamburger menu) -->
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu"></ion-icon>
+        </button>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="about">
+        <img src="img/img2.png" alt="prerana-singh" loading="lazy" class="hero-img">
+        <div class="bio animate_animated animate_shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">Hi there!</p>
+            <p class="bio-text">My name is Prerana Singh.</p>
+            <p class="bio-text">I am an undergraduate student pursuing Computer Science Engineering,
+                with a keen interest in UI / UX Designing.
+            </p>
+        </div>
+    </section>
+
+    <!-- MORE ABOUT -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>I got to know about the field of Web Developmnet while working on a college project,
+            where I learned about basics of HTML, CSS and JavaScript. But once I was into this field, there was no 
+            stopping to it. I continued my journey as a self-learned Web-Developer and here I am, building this portfolio
+            to share my work collection.
+        </p>
+        <p>Besides Web Development, I am also working on Machine Learning and Deep Learning Concepts. 
+          Although I would not say I am an expert, I have a quite good hold on basic algorithms, and I am 
+          looking forward to learn more, and combine the Machine Learning Concepts along with UI/UX to create 
+          something more useful.
+        </p>
+        <p>Apart from these academics, I have an interest in sketching, music and reading, which only adds to my better design comprehension. 😉 <br> 
+        </p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate_animated animate_pulse">
+                <img src="img/html.svg" alt="html5" loading="lazy" class="icon icon-card">
+                <img src="img/css.svg" alt="css3" loading="lazy" class="icon icon-card">
+                <img src="img/javascript.svg" alt="javascript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate_animated animate_pulse">
+                <img src="img/bootstrap.svg" alt="bootstrap" loading="lazy" class="icon icon-card">
+                <img src="img/react-native.svg" alt="react-native" loading="lazy" class="icon icon-card">
+                <img src="img/git.svg" alt="git" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="img/tictactoe2.png" alt="tictactoe" loading="lazy" class="project-pic">
+                <h3 class="project-title">Tic Tac Toe</h3>
+                <p class="project-description">Our favourite childhood game renovated. This webpage offers
+                    you to relive the golden childhood days with your friend. It records your click response 
+                    assigning that place to '0' or 'X' alternately, and declares winner on getting a row streak.
+                </p>
+                <a href="https://prerana-singh3000.github.io/Tic-Tac-Toe/" target="_blank" class="project-link">Check it out</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="img/musicocean1.png" alt="musicocean" loading="lazy" class="project-pic">
+                <h3 class="project-title">Music Ocean</h3>
+                <p class="project-description">Music is the Language of Soul. Here is collection of my personal favourite playlist 
+                    which you can enjoy anytime. The page also has functionalities of Play, Pause, Go to Previous, Go to Next.
+                </p>
+                <a href="https://prerana-singh3000.github.io/Music-Ocean/" target="_blank" class="project-link">Check it out</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="img/travelvista1.png" alt="travelvista" loading="lazy" class="project-pic">
+                <h3 class="project-title">Travel Vista</h3>
+                <p class="project-description">A creative Landing Page of a Travel Website that will help you
+                    choose your travel destination. With the functionality of auto-scroll. A fully responsive webpage for all devices.
+                </p>
+                <a href="https://prerana-singh3000.github.io/LGM-Training-Landing_Page_of_Travel_Website/" target="_blank" class="project-link">Check it out</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION  -->
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xwkajwro" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field" required>
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="60" rows="10" placeholder="Enter Your Message" class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOCIAL ACCOUNTS - fixed to right -->
+    <div class="socials">
+        <a href="#" target="_blank">
+            <img src="img/instagram.gif" alt="Instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.linkedin.com/in/prerana---singh" target="_blank">
+            <img src="img/linkedin.gif" alt="LinkedIn" loading="lazy" class="socicon">
+        </a>
+        <a href="https://github.com/Prerana-Singh3000" target="_blank">
+            <img src="img/github.gif" alt="Github" loading="lazy" class="socicon">
+        </a>
+    </div>
+
+    <!-- Sroll to top -->
+    <i class="scroll-up" id="scroll-up">
+        <img src="img/upward-arrow.gif" alt="scroll-up" class="socicon up-arrow">
+    </i>
+
+    <!-- Footer Section -->
+    <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">
+            Built with <b>&#x2661;</b> by 
+            <a href="#" target="_blank">Prerana Singh</a>
+        </p>
+    </footer>
+
+    <!-- WEBSITE SCRIPTS -->
+    <script src="script.js"></script>
+
+    <!-- Ion Icon Scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    
+</body>
+</html>
